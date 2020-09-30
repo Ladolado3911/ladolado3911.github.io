@@ -6,15 +6,26 @@
     <link rel = "stylesheet" type = "text/css" href = "images.css">
     <body>
 
-      <div class = "center">
-        <img src="googlelogo_color_272x92dp.png" alt = "Google">
-        <form action = "https://www.google.com/search">
-            <input type = "text" name = "q">
-            <input type = "hidden" name = "tbm" value = isch>
-            <input type = "submit" value = "Google Image Search">
-        </form>
-        <a href = "file:///C:/Users/LADO/Desktop/p0/search/index.html">Back</a>
+      <div id = "links">
+        <a href = "file:///C:/Users/LADO/Desktop/p0/search/index.html">
+          <input type = "button" value = "Go Back To Google Search">
+        </a>
       </div>
+
+      <div id = "img">
+        <img src="Capture.jpg" alt = "Google">
+      </div>
+
+      <form id = "form" action = "https://www.google.com/search">
+          <div id = "input" >
+            <input type = "text" name = "q">
+          </div>
+
+          <br>
+
+          <input type = "hidden" name = "tbm" value = isch>
+          <input type = "submit" value = "Google Image Search">
+      </form>
 
     </body>
 </html>

@@ -30,8 +30,12 @@
   box-shadow: 0 0 3pt 2pt gray;
 }
 
-.form {
+#form1 {
   text-align: center;
+}
+
+#form2 {
+  background-color: green;
 }
 
 /*# sourceMappingURL=index.css.map */
